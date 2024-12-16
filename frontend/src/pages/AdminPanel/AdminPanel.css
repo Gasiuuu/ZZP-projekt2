@@ -1,0 +1,27 @@
+.admin-panel {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.admin-panel h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.users-table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.users-table th, .users-table td {
+    padding: 10px;
+    text-align: center;
+}

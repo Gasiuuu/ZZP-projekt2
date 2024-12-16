@@ -1,0 +1,153 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.task-table {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 75%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    color: black;
+}
+
+.task-table th, .task-table td {
+    padding: 1rem;
+    text-align: left;
+}
+
+.task-table th {
+    background-color: #e0e0e0;
+    color: #333;
+    font-weight: bold;
+}
+
+.task-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.task-table tr:last-child {
+    border-bottom: none;
+}
+
+.task-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.edit-button, .delete-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.task-table td:last-child {
+    text-align: right;
+}
+
+.edit-button {
+    background-color: #193385;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #193076;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #e53935;
+}
+
+.add-task-button {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.add-task-button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+.hello-header {
+    text-align: left;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 13rem;
+}
+
+
+.not-logged-in-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.not-logged-in-message {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+.add-category-button {
+    position: fixed;
+    bottom: 2.5rem;
+    right: 7rem;
+    padding: 8px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.add-category-button:hover {
+    background-color: #45a049;
+}
+
+

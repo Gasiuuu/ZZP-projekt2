@@ -1,0 +1,44 @@
+.register-page {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-page input,
+.register-page select,
+.register-page button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.register-page button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.register-page .error {
+    color: red;
+    text-align: center;
+}
+
+.register-page .success {
+    color: green;
+    text-align: center;
+}
